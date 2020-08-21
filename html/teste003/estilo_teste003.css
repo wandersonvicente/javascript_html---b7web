@@ -1,0 +1,42 @@
+
+#title{ /* formatação por id */
+    font-style: italic;
+}
+.text{ /* formatação por class */
+   font-weight: bold;
+}
+
+
+#title, 
+.text {
+    color: blue;
+    font-size: 25px;
+}
+
+ol li {
+    color: red;
+    font-size: 25px;
+}
+
+/* FORMAS DE FORMATAÇÃO CSS
+
+NOME_DO_ELEMENTO{
+
+}
+
+#ID_DO_ELEMENTO {
+
+}
+
+.CLASS_DO_ELEMENTO {
+
+}
+ELEMENTO, OUTROELEMENTO{
+
+}
+
+ELEMENTO OUTROELEMENTO {
+    
+}
+
+*/
