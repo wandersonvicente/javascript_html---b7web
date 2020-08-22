@@ -1,60 +1,24 @@
-
-#title{ /* formatação por id */
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-
-}
-
-p {
-    background-color: #0000FF;
-    color: #FFFFFF;
-    border-radius: 5px;
-    
-    /* 
-    border: 5px solid #00f; 
-    border-bottom 
-    border-top
-    border-left
-    border-right 
-    */
-}
-
-div {
-    background-color: #00FF00;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px; /* para fazer um bola, você coloca metade dos pixels do quadrado*/
-    border: 3px solid #000;
-}
-
-img{
-    border: 5px solid #f00;
-    border-radius: 30px;
-    overflow: hidden; /* recorta a imagem para caber dentro da borda*/
-    width: 250px;
+.exemple{
+    border: 2px solid #045804;
+    padding: 10px; 
+    /* padding-left, padding-top... padding: 10px 5px 10px 5px (para cada direção sentido horário começão por cima*/
+    /*padding: 10px 5px - com dois números o primeiro é superior/inferior e o segundo é direita/esquerda*/
+    margin: 10px; 
+    /* margin-left, margin-top... As aplicações do padding servem para o margin*/
 
 }
 
-
-/* FORMAS DE FORMATAÇÃO CSS
-
-NOME_DO_ELEMENTO{
-
-}
-
-#ID_DO_ELEMENTO {
-
-}
-
-.CLASS_DO_ELEMENTO {
-
-}
-ELEMENTO, OUTROELEMENTO{
-
-}
-
-ELEMENTO OUTROELEMENTO {
-    
-}
+/* 
+BORDER: Todo elemento na tela tem uma borda, mesmo que não esteja visível. 
+MARGIN: Espaçamento EXTERNO do elemento na tela (texto,imagem, etc). Entre o conte. 
+PADDING: Espaçamento INTERNO do elemento na tela (texto,imagem, etc). Entre o conteúdo e a BORDA. 
 
 */
+
+#title{
+    border: 2px solid #00F;
+}
+
+p{
+    border: 2px solid #F00;
+}
