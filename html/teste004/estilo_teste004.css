@@ -1,0 +1,35 @@
+
+#title{ /* formatação por id */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+p {
+    background-color: #1c8e5b
+}
+
+
+
+/* FORMAS DE FORMATAÇÃO CSS
+
+NOME_DO_ELEMENTO{
+
+}
+
+#ID_DO_ELEMENTO {
+
+}
+
+.CLASS_DO_ELEMENTO {
+
+}
+ELEMENTO, OUTROELEMENTO{
+
+}
+
+ELEMENTO OUTROELEMENTO {
+    
+}
+
+*/
