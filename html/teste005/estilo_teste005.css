@@ -16,7 +16,8 @@ PADDING: Espaçamento INTERNO do elemento na tela (texto,imagem, etc). Entre o c
 */
 
 #title{
-    border: 2px solid #00F;
+    border: 1px solid #00F;
+    padding: 3px;
 }
 
 p{
