@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Verdana;
+    font-size: 50px;
+    color: #071ee7;
+}
+
+table{
+    font-family: serif;
+}
