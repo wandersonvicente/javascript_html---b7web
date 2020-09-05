@@ -14,5 +14,30 @@ h1{
 }
 
 table{
-    font-family: serif;
+    width: 600px;
+   
+}
+
+table thead{
+    background-color: #bbccbb;
+}
+
+table tbody{
+    background-color: #fff;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+tbody tr:hover {
+    background-color: #00a000;
+}
+
+tbody td {
+    border-bottom: 1px solid #000;
+}
+
+tbody tr:nth-child(even){
+    background-color: #bbccbb ;
 }
