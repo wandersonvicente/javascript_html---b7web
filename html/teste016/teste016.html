@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea no HTML</title>
+    <link rel="stylesheet" href="teste016.css">
+
+</head>
+<body>
+    
+    <h1>TEXTAREA</h1>
+
+    <h2>Registro de Reclamação</h2>
+
+    <form action="paginas/registro_teste016.html" method="GET">
+
+        <label for="reclamacao">Digite sua reclamação</label> <!--label serve para destacar os campos a que se refere e também para selecionar ou desmarcar o campo.-->
+        <br>
+        <textarea name="descricao" id="reclamacao" cols="30" rows="10"></textarea>
+        <!--Os atributos cols e rows não são tão usados pela diferença apresentada na exibição nos navegadores-->
+        <br>
+        <br>
+        <label>
+            <input type="checkbox">
+            Declaro que todas as informações acima são verdadeiras.
+        </label>
+        <br>
+
+        <input type="submit" value="Fazer Registro">
+        <br>
+
+        <button>Press here</button> <!--Utilizada tando em formulario ou fora dele. Mesma função do input type="submit"-->
+
+
+    </form>
+
+    <h2>Consulte seu Registro</h2>
+    <form action="">
+
+    </form>
+
+</body>
+</html>
