@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando Formulários no CSS</title>
+    <link rel="stylesheet" href="teste017.css">
+
+</head>
+<body>
+    
+    <h1>Cadastros e Matrículas</h1>
+
+    <h2>Cadastro de Matrícula</h2>
+
+    <form action="paginas/registro_teste017.html" method="GET">
+
+        <label>
+            Digite seu nome: <br>
+            <input type="text" name="nome">
+        </label>
+        
+             
+        <label>
+            Digite suas informações<!--label serve para destacar os campos a que se refere e também para selecionar ou desmarcar o campo.--> <br>
+    
+            <textarea name="descricao"></textarea>
+        <!--Os atributos cols e rows não são tão usados pela diferença apresentada na exibição nos navegadores-->
+        </label> 
+        
+              
+        <label for="">
+            Categoria: <br>
+            <select name="categoria" id="">
+                <option value="1">Turno Manhã</option>
+                <option value="2">Turno Tarde</option>
+                <option value="3">Turno Noite</option>
+                <option value="4">Turno Integral</option>
+                <option value="5">Turno Finais de Semana</option>
+            </select>
+        </label>
+        
+        
+        <label>
+            <input type="checkbox">
+            Declaro que li e concordo com os <a href="paginas/termosdeservicos_teste017.html" target="blank" class="termoslink">termos de serviços</a> acima.
+        </label>
+        
+
+        <button>Confirmar</button>
+        <br>
+
+    
+
+    </form>
+
+    <h2>Consulte sua Matrícula</h2>
+    <form action="">
+        Clique aqui para consultar sua Matrícula: <br>
+        <button>Press here</button>
+         <!--Utilizada tando em formulario ou fora dele. Mesma função do input type="submit"-->
+    </form>
+
+</body>
+</html>
