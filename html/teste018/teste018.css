@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    font-size: 17px;
+}
+
+h1{
+    font-family: Verdana;
+    font-size: 30px;
+    color: #000000;
+}
+
+nav{
+    height: 70px;
+    background-color: #00ab10;
+}
+footer{
+    height: 100px;
+    background-color: #CCC;
+}
+
