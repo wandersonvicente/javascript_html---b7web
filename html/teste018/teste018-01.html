@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos e Tags no HTML</title>
+    <link rel="stylesheet" href="teste018.css">
+
+</head>
+<body>
+
+    <div data-nome="Wanderson" data-sobrenome="Vicente">
+        Hello, Are you Ok? (Nesta dive eu usei o atributo "data" para guardar informações.)
+    <!--Esse atributo "data" salva informações dentro do código. Pode ser usada em qualquer tag do HTML-->
+    </div>
+    <br>
+    
+    <video src="video.mp4"width="320" height="240"type="video/mp4" controls>        
+    <!--Cria um player de vídeo no site.-->
+    </video><br>
+    Nesta tag "video" estou usando o atributo "type","src", "controls" (para o html exibir os controles do video na tela),"width" e "height" direto na tag.
+    <br>
+    <br>
+    
+    <video width="320" height="240" controls><!--O atribudo autoplay inicia o vídeo assim que o navagador carregar-->
+        <source src="video01.mp4" type="video/mp4">            
+    </video>
+    <br>
+    Nesta opção eu usei uma tag "source" dentro da tag "video" para usar os atributos "src" e "type". Tambem existe o atributo "autoplay" para que o vídeo comece assim que o navegador carregar<br> <br>
+    <audio src="bensound-badass.mp3" type="audio/mpeg" controls>
+        <!--Outros atributos: "loop", "muted", "preload"-->
+    </audio>
+    Music: https://www.bensound.com
+    <br>
+    A tag "audio" tem o funcionamento parecido com a teg "video" se tratando dos atributos src, type, controls e a inclusão da tag "source" dentro da tag audio.
+    
+</body>
+</html>
