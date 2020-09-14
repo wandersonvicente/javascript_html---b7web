@@ -51,8 +51,6 @@ h3{
     width: 50%;
     height: 300px;
     float: left;
-
-
 }
 .rightside{
     width: 25%;
@@ -60,14 +58,12 @@ h3{
     float:right;
     background-color: #e8a9f8;
 }
-form{
-    
+form{    
     font-size: 12px;
 }
 #password, #user, #login, {
     margin: 1px;
     padding: 1px;
-
 }
 .rodape{
     clear: both;
