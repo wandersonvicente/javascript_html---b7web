@@ -12,6 +12,11 @@ h1{
 h3{
     padding-left: 10px;
 }
+.menumobile{
+    display: none;
+    height: 30px;
+    padding: 5px;
+}
 .site{
     width:100%;
     max-width: 800px;
@@ -53,21 +58,39 @@ h3{
     width: 25%;
     height: 300px;
     float:right;
-    background-color: #DDD;
+    background-color: #e8a9f8;
 }
 .rodape{
     clear: both;
     height: 80px;
+    background-color: #d180f1;
 }
-@media only screen and (min-width:500px) and (max-width:800px){
-
-    .cidade{
-        width: 50%;
+@media only screen and (min-width:500px) and (max-width:700px){
+    .center{
+        width: 75%;
+    }
+    .rightside{
+        width: 75%;
+        height: 100px;
     }
 
 }
-@media only screen and (max-width: 500px){
-    .cidade{
+@media only screen and (max-width:500px){
+    .menumobile{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu{
         width: 100%;
+        height: 30px;
+    }
+    .center{
+        width: 100%;
+    }
+    .rightside{
+        width: 100%;
+        height: 100px;
     }
 }
